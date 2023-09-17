@@ -1,10 +1,5 @@
+import math
 
-num1 = 50
-def funcion1():
-	global num1
-	num1 = 10
+area = lambda radio: (math.pi * radio * radio)
 
-funcion1()
-
-
-print(num1 )
+print(area(2))
