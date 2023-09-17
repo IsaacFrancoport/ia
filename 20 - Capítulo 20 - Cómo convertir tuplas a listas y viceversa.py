@@ -1,0 +1,10 @@
+
+lista = ['rojo', 'azul', 'verde', 'amarillo']
+tupla = tuple(lista)
+print(tupla)
+# EN ESTE CODIGO SE HACE UNA TUPLA POR QUE AL MOMENTO DE IMPRIMIR SALE CON PARENTESIS Y ESO ES LO QUE SIGNIFICA TUPLA Y AL MIUIMSO TIEMPO SE ESTA GUARDANDO EN UNA LISTA
+
+tupla = ['rojo', 'azul', 'verde', 'amarillo']
+lista = list(tupla)
+print(lista)
+# ES ESTE OTRO CODIGO ES LO CONTRARIO EN VEZ DE USAR PARENTESIS USAMOS CORCHETES QUE HACE QUE ESTO SEA UNA TUPLA Y NO UNA LISTA 
